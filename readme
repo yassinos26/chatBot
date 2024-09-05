@@ -1,0 +1,23 @@
+1-Create a New Conda Environment
+
+conda create --name chatbot_env python=3.10
+
+2-Activate the Environment
+
+conda activate chatbot_env
+
+3-install dependecies
+
+pip install -r requirements.txt
+
+4-upgrade version du tensorflow
+
+pip install tensorflow --upgrade
+
+5-train model
+
+python train.py
+
+6-run backend flask
+
+python app.py

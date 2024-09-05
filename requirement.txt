@@ -1,0 +1,5 @@
+numpy
+pandas
+tensorflow
+scikit-learn
+googletrans==4.0.0-rc1

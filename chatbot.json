@@ -1,0 +1,337 @@
+{
+    "intents": [
+        {
+            "tag": "salutation",
+            "patterns": [
+                "Bonjour",
+                "Salut",
+                "Hello",
+                "Hi",
+                "Bonsoir",
+                "Salut, je cherche des informations"
+            ],
+            "responses": [
+                "Bonjour, comment puis-je vous aider aujourd'hui?",
+                "Salut! Que puis-je faire pour vous?",
+                "Hello, I am here to assist you with information about our site."
+            ]
+        },
+        {
+            "tag": "description_entreprise",
+            "patterns": [
+                "Qu'est-ce que fait votre entreprise?",
+                "Pouvez-vous me donner des détails sur vos services?",
+                "Quelle est la mission de votre société?",
+                "Quels sont les services que vous offrez?",
+                "What does your company do?",
+                "Can you give me details about your services?",
+                "What is your company's mission?",
+                "What services do you offer?"
+            ],
+            "responses": [
+                "Notre entreprise se spécialise dans dans l'élaboration de produits et de solutions numériques de haute qualité, ainsi que dans la fourniture d'une gamme de services professionnels connexes. Nous offrons à nos clients un service de classe mondiale.",
+                "Nous offrons une gamme complète de services, y compris le développement d'applications web et mobiles, ainsi que l'intelligence artificielle.",
+                "Notre mission est demettre la créativité au service de votre marque !Notre équipe d'experts s'engage à transformer votre paysage numérique en fournissant des solutions de pointe adaptées à vos besoins commerciaux uniques.",
+                "Nous proposons le développement d'applications web et mobiles, ainsi que l'intelligence artificielle, adaptés aux besoins de nos clients.",
+                "Our company specializes in building high-quality digital solutions and products as well as providing a wide range of related professional services. We provide world-class service to our clients.",
+                "We offer a full range of services, including web and mobile application development, as well as artificial intelligence.",
+                "Our mission is to make creativity work for your brand!Our dedicated team of experts is committed to transforming your digital landscape by providing cutting-edge solutions tailored to your unique business needs.",
+                "We provide web and mobile application development, as well as artificial intelligence, tailored to meet our clients' needs."
+            ]
+        },
+        {
+            "tag": "articles_recents",
+            "patterns": [
+                "Quels sont les derniers articles publiés?",
+                "Pouvez-vous me montrer les nouveaux articles?",
+                "Quelles sont les nouvelles publications sur le site?",
+                "What are the latest articles published?",
+                "Can you show me the new articles?",
+                "What are the new posts on the site?"
+            ],
+            "responses": [
+                "Voici les derniers articles publiés : Cybersécurité, Produits et projets, DevFactory.",
+                "Les nouveaux articles incluent : Cybersécurité, Produits et projets, DevFactory .",
+                "Vous pouvez consulter les dernières publications ici : http://localhost:5174/article/668174f3945be4e63057c241 .",
+                "Here are the latest articles published: Cybersecurity , Product & Project,DevFactory .",
+                "The new articles include: Cybersecurity , Product & Project,DevFactory .",
+                "You can check the latest posts here: http://localhost:5174/article/668174f3945be4e63057c241 ."
+            ]
+        },
+        
+        {
+            "tag": "recommandation_contenu",
+            "patterns": [
+                "Pouvez-vous me recommander un article?",
+                "Que devrais-je lire en fonction de mes préférences?",
+                "Avez-vous des suggestions pour moi?",
+                "Can you recommend an article for me?",
+                "What should I read based on my preferences?",
+                "Do you have any suggestions for me?"
+            ],
+            "responses": [
+                "Je vous recommande cet article basé sur vos intérêts : http://localhost:5174/article/668174f3945be4e63057c241 .",
+                "En fonction de ce que vous cherchez, cet article pourrait vous intéresser : http://localhost:5174/article/66747a06663f01e00d1f2cb2 .",
+                "Voici une suggestion pour vous : [Data & IA:La maîtrise de la donnée, fondement de la transformation réussie - http://localhost:5174/article/6672b29b6209a6191c60105f .",
+                "I recommend this article based on your interests: http://localhost:5174/article/668174f3945be4e63057c241 .",
+                "Based on what you're looking for, this article might interest you: http://localhost:5174/article/66747a06663f01e00d1f2cb2 .",
+                "Here is a suggestion for you: Data & AI:Mastering data, the foundation of successful transformation - http://localhost:5174/article/6672b29b6209a6191c60105f."
+            ]
+        },
+        {
+            "tag": "services_offres",
+            "patterns": [
+                "Quels services offrez-vous?",
+                "Pouvez-vous m'informer sur vos offres?",
+                "Quelles sont les offres disponibles?",
+                "What services do you offer?",
+                "Can you tell me about your offers?",
+                "What are the available offers?"
+            ],
+            "responses": [
+                "Nous offrons une gamme de services incluant la consultation des offres, la création de comptes utilisateurs, et plus encore. Pour plus de détails, visitez la page http://localhost:5174/all-jobs .",
+                "Vous pouvez consulter nos services et offres ici : http://localhost:5174/all-jobs, http://localhost:5174/all-services .",
+                "Actuellement, nous proposons des services comme la postulation aux offres. Découvrez-en plus ici : http://localhost:5174/all-jobs .",
+                "We offer a range of services including browsing job offers, creating user accounts, and more. For more details, visit http://localhost:5174/all-jobs .",
+                "You can check out our services and offers here: http://localhost:5174/all-services , http://localhost:5174/all-jobs .",
+                "Currently, we provide services like applying for jobs and signing up for our newsletter. Learn more here: http://localhost:5174/all-jobs ."
+            ]
+        },
+        {
+            "tag": "compte_utilisateur",
+            "patterns": [
+                "Comment créer un compte?",
+                "Puis-je m'inscrire sur votre site?",
+                "Comment puis-je créer un profil utilisateur?",
+                "How do I create an account?",
+                "Can I sign up on your site?",
+                "How can I create a user profile?"
+            ],
+            "responses": [
+                "Pour créer un compte, suivez ce lien : http://localhost:5174/register .",
+                "Cliquez ici pour vous inscrire et créer un compte : http://localhost:5174/register .",
+                "La création de compte est simple. Commencez ici : http://localhost:5174/register .",
+                "To create an account, follow this link: http://localhost:5174/register .",
+                "Click here to sign up and create an account: http://localhost:5174/register .",
+                "Creating an account is easy. Start here: http://localhost:5174/register ."
+            ]
+        },
+        {
+            "tag": "postuler_offres",
+            "patterns": [
+                "Comment postuler aux offres?",
+                "Puis-je postuler à des offres?",
+                "Comment puis-je soumettre ma candidature?",
+                "How do I apply for job offers?",
+                "Can I apply for job offers?",
+                "How can I submit my application?"
+            ],
+            "responses": [
+                "En tant que visiteur, vous pouvez postuler à des offres jusqu'à trois fois. Au-delà, vous devrez créer un compte pour continuer : http://localhost:5174/all-jobs .",
+                "Pour postuler, connectez-vous à votre compte et choisissez l'offre qui vous intéresse : http://localhost:5174/all-jobs .",
+                "Soumettez votre candidature en suivant ce lien : http://localhost:5174/all-jobs .",
+                "As a visitor, you can apply for job offers up to three times. After that, you'll need to create an account to continue: http://localhost:5174/all-jobs .",
+                "To apply, log in to your account and choose the offer that interests you: http://localhost:5174/all-jobs .",
+                "Submit your application by following this link: http://localhost:5174/all-jobs ."
+            ]
+        },
+        {
+            "tag": "chatbot_information",
+            "patterns": [
+                "Comment utiliser le chatbot?",
+                "Puis-je poser des questions au chatbot?",
+                "Le chatbot peut-il m'aider?",
+                "How do I use the chatbot?",
+                "Can I ask the chatbot questions?",
+                "Can the chatbot assist me?"
+            ],
+            "responses": [
+                "Utilisez notre chatbot pour obtenir des réponses rapides. Cliquez sur l'icône du chatbot pour commencer.",
+                "Le chatbot est là pour vous aider. Cliquez simplement sur l'icône du chatbot pour démarrer .",
+                "Use our chatbot to get quick answers. Click on the chatbot icon to start.",
+                "The chatbot is here to help you. Simply click on the chatbot iconto start"
+            ]
+        },
+        {
+            "tag": "pages_information",
+            "patterns": [
+                "Où puis-je trouver des informations sur le site?",
+                "Comment accéder aux pages d'informations?",
+                "Puis-je consulter des informations sur le site?",
+                "Where can I find information on the site?",
+                "How do I access the information pages?",
+                "Can I browse information on the site?"
+            ],
+            "responses": [
+                "Accédez à nos pages d'informations en cliquant ici : http://localhost:5174/ .",
+                "Vous trouverez toutes les informations dont vous avez besoin sur cette page : http://localhost:5174/ .",
+                "Pour consulter nos pages d'informations, suivez ce lien : http://localhost:5174/ .",
+                "Access our information pages by clicking here: http://localhost:5174/ .",
+                "You can find all the information you need on this page: http://localhost:5174/ .",
+                "To browse our information pages, follow this link: http://localhost:5174/ ."
+            ]
+        }, 
+        {
+            "tag": "ajouter_blog",
+            "patterns": [
+                "Puis-je publier un nouvel article?",
+                "Can I post a new article?"
+                
+            ],
+            "responses": [
+                "Pour publier un nouvel article, connectez-vous à votre compte et utilisez cette page : http://localhost:5174/dashboard/add-articles .",
+                "To post a new article, log in to your account  as a recruiter and use this page: http://localhost:5174/dashboard/add-articles ."
+            ]
+        },
+        {
+            "tag": "ajouter_offre",
+            "patterns": [
+                "Puis-je ajouter une nouvelle offre d'emploi?",
+                "Comment ajouter un offre d'emploi?",
+                "Can I add a new job offer?",
+                "How can I add a job offer?"
+            ],
+            "responses": [
+                "En tant que recruteur , vous pouvez ajouter une nouvelle offre d'emploi ou un service en vous connectant à votre compte : http://localhost:5174/dashboard/add-jobs.",
+                "Pour ajouter une offre , connectez-vous à votre compte et utilisez cette page : http://localhost:5174/dashboard/add-jobs .",
+                "As a recruiter , you can add a new job offer or service by logging in to your account: http://localhost:5174/dashboard/add-jobs .",
+                "To add an offer , log in to your account and use this page: http://localhost:5174/dashboard/add-jobs ."            ]
+        },      
+        {
+            "tag": "ajouter_service",
+            "patterns": [
+                "Comment ajouter un service?",
+                "How can I add a service?",
+                "Can I add a new service?"
+            ],
+            "responses": [
+            "En tant que recruteur , vous pouvez ajouter un service en vous connectant à votre compte : http://localhost:5174/dashboard/add-services .",
+                "Pour ajouter  un service, connectez-vous à votre compte et utilisez cette page : http://localhost:5174/dashboard/add-services .",
+                "As a recruiter , you can add a new  service by logging in to your account: http://localhost:5174/dashboard/add-services .",
+                "To add an service , log in to your account and use this page: http://localhost:5174/dashboard/add-services ."           
+            ]
+        },     
+        {
+            "tag": "modifier_article",
+            "patterns": [
+                "Puis-je modifier un article?",
+                "Puis-je éditer un article que j'ai écrit?",
+                "Can I edit an article?",
+                "Can I edit an article I've written?"
+            ],
+            "responses": [
+                "Vous pouvez modifier un article si vous êtes le propriétaire en suivant ce lien : http://localhost:5174/dashboard/manage-articles ,puis cliquez sur l'icône du modification.",
+                "Modifiez votre article en suivant ce lien : http://localhost:5174/dashboard/manage-articles .",
+                "You can edit an article if you're the owner by following this link: http://localhost:5174/dashboard/manage-articles , then click on the edit icon.",
+                "Edit your article by following this link: http://localhost:5174/dashboard/manage-articles ."
+            ]
+        },
+        {
+            "tag": "modifier_offre",
+            "patterns": [
+                "Puis-je modifier une offre d'emploi?",
+                "Puis-je éditer une offre d'emploi que j'ai créée?",
+                "Can I edit a job offer?",
+                "Can I edit a job offer I've created?"
+            ],
+            "responses": [
+                "Vous pouvez modifier une offre d'emploi si vous êtes le propriétaire en suivant ce lien : http://localhost:5174/dashboard/manage-jobs ,puis cliquez sur l'icône du modification.",
+                "Modifiez votre offre d'emploi en suivant ce lien : http://localhost:5174/dashboard/manage-jobs .",
+                "You can edit a job offer if you're the owner by following this link: http://localhost:5174/dashboard/manage-jobs , then click on the edit icon.",
+                "Edit your job offer by following this link: http://localhost:5174/dashboard/manage-jobs ."
+            ]
+        },
+        {
+            "tag": "modifier_service",
+            "patterns": [
+                "Puis-je modifier un service?",
+                "Puis-je éditer un service que j'ai ajouté?",
+                "Can I edit a service?",
+                "Can I edit a service I've added?"
+            ],
+            "responses": [
+                "Vous pouvez modifier un service si vous êtes le propriétaire en suivant ce lien : http://localhost:5174/dashboard/manage-services,puis cliquez sur l'icône du modification.",
+                "Modifiez votre service en suivant ce lien : http://localhost:5174/dashboard/manage-services .",
+                "You can edit a service if you're the owner by following this link: http://localhost:5174/dashboard/manage-services , then click on the edit icon.",
+                "Edit your service by following this link: http://localhost:5174/dashboard/manage-services ."
+            ]
+        },   
+        {
+            "tag": "sauvegarder_cv",
+            "patterns": [
+                "Comment sauvegarder mon CV?",
+                "Comment puis-je ajouter un CV à mon compte?",
+                "How do I save my CV?",
+                "How can I add a CV to my account?"
+            ],
+            "responses": [
+                "Vous pouvez sauvegarder votre CV dans votre compte en suivant ce lien : http://localhost:5174/dashboard/edit-profile/ .",
+                "Pour ajouter un CV à votre compte, utilisez cette page : http://localhost:5174/dashboard/edit-profile/ .",
+                "You can save your CV in your account by following this link: http://localhost:5174/dashboard/edit-profile/ .",
+                "To add a CV to your account, use this page: http://localhost:5174/dashboard/edit-profile/ ."
+                
+            ]
+        },
+        {
+            "tag": "contact_assistance",
+            "patterns": [
+                "Comment puis-je vous contacter?",
+                "J'ai besoin de parler à un représentant",
+                "Où puis-je obtenir plus d'aide?",
+                "How can I contact you?",
+                "I need to speak to a representative",
+                "Where can I get more help?"
+            ],
+            "responses": [
+                "Vous pouvez nous contacter envoyez-nous un message et nous vous répondrons dans les plus brefs délais via http://localhost:5174/contact .",
+                "Pour parler à un représentant, utilisez notre formulaire de contact ici : http://localhost:5174/contact .",
+                "Pour toute assistance supplémentaire, n'hésitez pas à nous contacter à Contact@Onrtech.Fr ou +33 7 50 21 83 96 .",
+                "You can contact us Send us a message and we'll get back to you as soon as possible via http://localhost:5174/contact .",
+                "To speak with a representative, use our contact form here: http://localhost:5174/contact .",
+                "For further assistance, feel free to contact us at Contact@Onrtech.Fr or +33 7 50 21 83 96."
+            ]
+        },
+        {
+            "tag": "remerciements",
+            "patterns": [
+                "Merci",
+                "Merci beaucoup",
+                "C'est utile",
+                "Merci pour l'aide",
+                "Thank you",
+                "Thanks a lot",
+                "This is helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Avec plaisir!",
+                "Je suis content d'avoir pu vous aider!",
+                "N'hésitez pas à demander si vous avez d'autres questions.",
+                "You're welcome!",
+                "I'm glad I could help!",
+                "Feel free to ask if you have more questions."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Au revoir",
+                "Bye",
+                "À bientôt",
+                "Merci, au revoir",
+                "Goodbye",
+                "Bye",
+                "See you soon",
+                "Thanks, goodbye"
+            ],
+            "responses": [
+                "Au revoir, n'hésitez pas à revenir si vous avez besoin de plus d'informations.",
+                "À bientôt! Je suis toujours là pour vous aider.",
+                "Merci de votre visite, passez une excellente journée!",
+                "Goodbye, feel free to return if you need more information.",
+                "See you soon! I'm always here to help.",
+                "Thank you for your visit, have a great day!"
+            ]
+        }
+    ]
+}
